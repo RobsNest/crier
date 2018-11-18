@@ -1,0 +1,48 @@
+div.gameboard {
+	position:fixed; top:130px; right:84px;
+}
+.nest {
+	color: #C0C0C0;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: serif;
+	text-decoration: none;
+}
+.nest:hover {
+	color: #FFFFFF;
+}
+.game {
+	color: #FFFFFF;
+	font-size: 10pt;
+	font-weight: bold;
+	font-family: arial;
+	text-decoration: none;
+}
+.game:hover {
+	color: #FFFF00;
+}
+.subtext {
+	color: #FFFFFF;
+	font-size: 6pt;
+	font-weight: bold;
+	font-family: Sans-serif;
+	text-decoration: none;
+}
+.subtext:hover {
+	color: #FFFF00;
+	text-decoration: underline;
+}
+.heading {
+	color: #000000;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 22pt;
+	text-decoration: none;
+	text-shadow: 1px 1px #000000;
+}
+#bottom{
+	width: 98.5%;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+}

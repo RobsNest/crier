@@ -1,0 +1,9 @@
+1516919375<!@!>Trebor: I think its working.
+1516919401<!@!>Trebor: ********Beta Test********
+1516919498<!@!>Trebor: This... "Chat Room" is just us here at Cumberland Crier testing the waters to see if there is any interest in Local Live Chat.
+1516919682<!@!>Trebor: I will check in periodically to see if there is any activity.
+1516919721<!@!>Trebor: On the right is the list of users in the Chat.
+1516919748<!@!>Trebor: This panel is where the chat messages appear.
+1516919766<!@!>Trebor: And below is where you type your message.
+1516919815<!@!>Trebor: There may be a small delay between pressing the enter key and your message being displayed. Hopefully less then a second or two.
+1516919877<!@!>Trebor: ********Happy Chatting********

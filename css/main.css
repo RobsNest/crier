@@ -1,0 +1,210 @@
+div.pollresults {
+	width: 195px;
+	font-weight: bold;
+	font-size: 10pt;
+}
+div.pollquestion {
+	width: 210px;
+  	text-align: left;
+	padding: 6px;
+	font-size: 12pt;
+}
+.pqtext {
+	color: #000000;
+	font-size: 11pt;
+	font-weight: italic;
+	text-decoration: underline;
+}
+.pqtext:hover {
+	color: #404040;
+}
+
+.scanner {
+	color: #C6C6C6;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+.scanner:hover {
+	color: #4040FF;
+}
+
+div.article {
+	width: 220px;
+	background-image: url("../images/paper.jpg");
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  	text-align: left;
+	padding: 6px;
+	font-size: 12pt;
+}
+div.menuleft {
+	width: 195px;
+  	text-align: center;
+	font-size: 11pt;
+	position:fixed; top:25%; left:6%;
+}
+.ejtext {
+	color: #FF0000;
+	font-size: 32pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.ejcc {
+	color: #000000;
+	font-size: 24pt;
+	font-weight: bold;
+	font-family: cursive;
+	text-decoration: none;
+	text-shadow: 2px 2px #404040;
+}
+.robsnest {
+	color: #FFFFFF;
+	font-size: 16pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+}
+.robsnest:hover {
+	text-decoration: underline;
+}
+.titletext {
+	color: #000000;
+	font-size: 26pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.titletext:hover {
+	text-shadow: 2px 2px #909090;
+}
+.fourday {
+	color: #000000;
+	font-size: 8pt;
+	font-weight: bold;
+	font-family: Serif;
+	text-decoration: none;
+}
+.fourday:hover {
+	color: #404040;
+}
+.subtext {
+	color: #000000;
+	font-size: 6pt;
+	font-weight: bold;
+	font-family: Sans-serif;
+	text-decoration: none;
+}
+.subtext:hover {
+	color: #404040;
+}
+.info{
+	color: #000000;
+	font-family: Serif;
+	font-size: 12pt;
+	text-decoration: none;
+}
+.reports{
+	color: #000000;
+	font-family: Serif;
+	font-weight: bold;
+	font-size: 14pt;
+	text-decoration: none;
+}
+.reports:hover {
+	text-shadow: 1px 1px #FF8080;
+}
+.pub{
+	color: #000000;
+	font-family: Serif;
+	font-size: 10pt;
+	text-decoration: none;
+}
+.pub:hover {
+	text-shadow: 1px 1px #C0C0FF;
+}
+.miniweather{
+	color: #000000;
+	font-family: Serif;
+	font-weight: bold;
+	font-size: 14pt;
+	text-decoration: none;
+}
+.miniweather:hover {
+	text-shadow: 1px 1px #0000FF;
+}
+
+.tandt {
+	color: #000000;
+	font-family: Serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.breaking {
+	color: #000000;
+	font-family: Serif;
+	font-weight: bold;
+	font-size: 12pt;
+	text-decoration: none;
+	text-shadow: 2px 2px #FF8080;
+}
+.queuetext {
+    color: #000000;
+    font-weight: bold;
+    font-size: 11pt;
+    text-decoration: none;
+}
+.formtext {
+    color: #000000;
+    font-weight: bold;
+    font-size: 9pt;
+    text-decoration: none;
+}
+.forminput {
+    border: 1px solid #909090;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    padding: 4px 6px;
+    outline: 0;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+}
+.forminput.rounded:focus {
+    border-color: #FF8080;
+}
+input[name="phone"] { display:none; }
+.bottommenu {
+	color: #000000;
+	font-family: Sans-serif;
+	font-weight: bold;
+	font-size: 10pt;
+	text-decoration: none;
+	text-shadow: 2px 2px #C0C0C0;
+}
+.bottommenu:hover {
+	color: #404040;
+	text-decoration: underline;
+	text-shadow: 0px 0px #C0C0C0;
+}
+#pagetop{
+	width: 98.5%;
+	position: fixed;
+	top: 0px;
+	text-align: center;
+}
+div#preload { display: none; }
+#bottom{
+	width: 98.5%;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+}

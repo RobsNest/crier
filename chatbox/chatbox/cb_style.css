@@ -1,0 +1,110 @@
+﻿#signInForm, #messageForm {
+	margin:0px;
+	margin-bottom:1px;
+}
+#userName {
+	width: 150px;
+	height: 22px;
+    border: 1px solid #909090;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    padding: 4px 6px;
+    outline: 0;
+    -webkit-appearance: none;
+	float:left;
+}
+#signInButt {
+	width: 60px;
+	height: 22px;
+}	
+#signInName{
+	font-family:Tahoma;
+	font-size:16px;
+    font-weight: bold;
+	color: #0000C0;
+}
+#chatBox {
+	font-family:tahoma;
+	font-size:14px;
+	background: #FFFFFF;
+	color:black;
+	
+    border: 1px solid #909090;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    padding: 4px 6px;
+    outline: 0;
+    -webkit-appearance: none;
+	
+	height: 225px;
+	width: 420px;
+	overflow: scroll;
+	float:left;
+
+}
+#usersOnLine{
+	font-family:tahoma;
+	font-size:14;
+	color: #0000C0;
+	background: #FFFFFF;
+	
+    border: 1px solid #909090;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    padding: 4px 6px;
+    outline: 0;
+    -webkit-appearance: none;
+	
+	width:150px;
+	height:225px;
+	overflow:scroll;
+	margin-left:1px;
+}
+#message {
+	width: 340px;
+	height: 22px;
+	
+    border: 1px solid #909090;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    padding: 4px 6px;
+    outline: 0;
+    -webkit-appearance: none;
+	
+	float:left;
+	margin-top:1px;
+}
+#send {
+	width: 50px;
+	height: 22px;
+	float:left;
+	margin:1px;
+}
+#serverRes{
+	width:150px;
+	height:22px;
+	float:left;
+	margin:1px;
+	color: #FFFFFF;
+}
+.chatroom {
+	color: #FFFFFF;
+	font-size: 11pt;
+	font-weight: bold;
+	text-decoration: none;
+}
+.chatroom:hover {
+	color: #4040FF;
+}

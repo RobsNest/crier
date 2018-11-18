@@ -1,0 +1,255 @@
+var url = 'https://newsapi.org/v2/top-headlines?' +
+          'country=us&' +
+          'apiKey=01ff08fee2714d12964a19a23270209c';
+var req = new Request(url);
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })
+
+
+status": "ok",
+"totalResults": 20,
+-"articles": [
+-{
+-"source": {
+"id": "the-new-york-times",
+"name": "The New York Times"
+},
+"author": "http://www.nytimes.com/by/karen-crouse",
+"title": "Brooks Koepka Repeats as the US Open Champion",
+"description": "Koepka, 28, finished at one over par for the tournament, closing with a two-under 68 at Shinnecock Hills Golf Club and becoming the first man since 1989 to win the title in consecutive years.",
+"url": "https://www.nytimes.com/2018/06/17/sports/us-open-brooks-koepka.html",
+"urlToImage": "https://static01.nyt.com/images/2018/06/18/sports/18golf-brooks/18golf-brooks-facebookJumbo.jpg",
+"publishedAt": "2018-06-18T01:20:53Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Kiro7.com"
+},
+"author": "KIRO 7 News Staff",
+"title": "Police respond to reports of a shooting inside Walmart in Tumwater",
+"description": "Police are responding to reports of a shooting inside the Walmart Supercenter in Tumwater, Washington.",
+"url": "https://www.kiro7.com/news/south-sound-news/police-respond-to-reports-of-a-shooting-inside-walmart-in-tumwater/771756019",
+"urlToImage": "https://mediaweb.kirotv.com/photo/2018/06/17/walmart_1529285527526_12021360_ver1.0_640_360.jpg",
+"publishedAt": "2018-06-18T01:18:45Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Nydailynews.com"
+},
+"author": "Nicole Hensley",
+"title": "Crash kills 5 as van packed with migrants flees Border Patrol in 100-mph chase on Texas highway",
+"description": "About a dozen people were reportedly flung from the vehicle as the feds gave chase.",
+"url": "http://www.nydailynews.com/news/ny-news-migrants-killed-border-patrol-chase-texas-highway-20180617-story.html",
+"urlToImage": "http://www.nydailynews.com/resizer/9LlE97upYRlXTPpfTRvzq7OYlrg=/1200x0/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/ILQPV5TV2NADTINV3HU36BELMI.jpg",
+"publishedAt": "2018-06-18T01:10:00Z"
+},
+-{
+-"source": {
+"id": "financial-times",
+"name": "Financial Times"
+},
+"author": null,
+"title": "Osaka earthquake causes damage and widespread disruption",
+"description": "Quake below Japan’s second city causes damage and widespread disruption",
+"url": "https://www.ft.com/content/00e7a144-728f-11e8-aa31-31da4279a601",
+"urlToImage": "https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__assets%2Fcreatives%2Fopen-graph%2Ffastft-v1.jpg?source=next-opengraph&fit=scale-down&width=900",
+"publishedAt": "2018-06-18T00:58:44Z"
+},
+-{
+-"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": null,
+"title": "The Latest: Ex-rebels want to meet with new Colombia leader",
+"description": "The latest on Colombia’s presidential election (all times local):",
+"url": "https://www.washingtonpost.com/world/the_americas/the-latest-leftist-vows-to-fight-colombias-president-elect/2018/06/17/753e337c-728b-11e8-bda1-18e53a448a14_story.html",
+"urlToImage": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
+"publishedAt": "2018-06-18T00:55:25Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Abc7news.com"
+},
+"author": null,
+"title": "Scuba diver loses consciousness, dies at Sonoma County's Salt Point State Park",
+"description": "A scuba diver was pronounced dead Saturday afternoon after something caused him to lose consciousness as he was diving in a cove at Salt Point State Park, Sonoma County sheriff's officials said.",
+"url": "http://abc7news.com/scuba-diver-loses-consciousness-dies-on-sonoma-county-coast/3614238/",
+"urlToImage": "http://cdn.abclocal.go.com/content/wpvi/images/cms/828778_1280x720.jpg",
+"publishedAt": "2018-06-18T00:17:15Z"
+},
+-{
+-"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "https://www.facebook.com/daveweigel?fref=ts",
+"title": "Democrats intensify fight for immigrant children — and bludgeon Trump and Republicans ahead of midterms",
+"description": "President Trump’s allies continued to defend separating children from their parents at the border, while Democratic lawmakers visited detention centers from New York to Texas and blanketed Sunday talk shows with criticism of the adiminstration’s “zero-toleran…",
+"url": "https://www.washingtonpost.com/world/national-security/democrats-intensify-fight-for-immigrant-children--and-bludgeon-trump-and-republicans-ahead-of-midterms/2018/06/17/151266d2-7239-11e8-9780-b1dd6a09b549_story.html",
+"urlToImage": "https://www.washingtonpost.com/resizer/Rj1e6rnpBFjZcN07s2CIcz57cqE=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/BK3QOLTSPII6RF4AWHOWUCNVJE.jpg",
+"publishedAt": "2018-06-17T23:33:25Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Espn.com"
+},
+"author": null,
+"title": "Brazil lost World Cup opener due to anxiety, not Switzerland's rough tactics",
+"description": "Brazil's stuttering performance stemmed from anxiety at playing their first World Cup game, coach Tite said after their 1-1 draw with Switzerland.",
+"url": "http://www.espn.com/soccer/brazil/story/3530675/brazil-lost-world-cup-opener-due-to-anxiety-not-switzerlands-rough-tactics",
+"urlToImage": "http://a.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0617%2Fr387375_1296x729_16%2D9.jpg",
+"publishedAt": "2018-06-17T22:44:16Z"
+},
+-{
+-"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "https://www.facebook.com/SoccerInsider",
+"title": "Mexico delivers a World Cup earthquake with defeat of Germany, the defending champ",
+"description": "El Tri gives the World Cup its first significant upset before an ecstatic, booming pro-Mexican crowd in Moscow.",
+"url": "https://www.washingtonpost.com/news/soccer-insider/wp/2018/06/17/germany-vs-mexico-2018-world-cup/",
+"urlToImage": "https://www.washingtonpost.com/resizer/48itXEytlRhP1QWkIKiXC5inpDg=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/TBQSEWRMJMYGTLPJCFT7ZPJ3ZU.jpg",
+"publishedAt": "2018-06-17T20:15:00Z"
+},
+-{
+-"source": {
+"id": "the-hill",
+"name": "The Hill"
+},
+"author": "Julia Manchester",
+"title": "FBI agent who sent anti-Trump texts offers to testify on Capitol Hill",
+"description": "FBI agent Peter Strzok offered to testify before the House Judiciary Committee in a letter from his attorney released on Sunday.",
+"url": "http://thehill.com/policy/national-security/392700-fbi-agent-who-sent-anti-trump-texts-offers-to-testify-on-capitol",
+"urlToImage": "http://thehill.com/sites/default/files/newsletter-mueller_050318getty.jpg",
+"publishedAt": "2018-06-17T20:10:52Z"
+},
+-{
+-"source": {
+"id": "abc-news-au",
+"name": "ABC News (AU)"
+},
+"author": null,
+"title": "Aquarius migrant ship arrives in Spain after rough week at sea",
+"description": "A migrant rescue boat turned away by Italy and Malta arrives at the Spanish port of Valencia, ending a gruelling voyage which has made it a symbol of Europe's failure to agree on immigration.",
+"url": "http://www.abc.net.au/news/2018-06-18/aquarius-migrant-ship-arrives-in-spain-after-rough-week-at-sea/9879018",
+"urlToImage": "http://www.abc.net.au/news/image/9879162-16x9-700x394.jpg",
+"publishedAt": "2018-06-17T20:03:10Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Yahoo.com"
+},
+"author": null,
+"title": "Taliban end truce, attack Afghan forces",
+"description": null,
+"url": "https://au.news.yahoo.com/taliban-end-truce-attack-afghan-forces-191311418--spt.html",
+"urlToImage": null,
+"publishedAt": "2018-06-17T19:30:55Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "People.com"
+},
+"author": "Maria Pasquini",
+"title": "Meghan Markle Goes Floral & Coordinates with Prince Harry at Wedding of Princess Diana's Niece",
+"description": "",
+"url": "https://people.com/royals/meghan-markle-coordinates-prince-harry-princess-diana-niece-wedding/",
+"urlToImage": "https://peopledotcom.files.wordpress.com/2018/06/wedding-u.jpg?crop=0px%2C84px%2C1547px%2C813px&resize=1200%2C630",
+"publishedAt": "2018-06-17T19:05:08Z"
+},
+-{
+-"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": null,
+"title": "TV host Jimmy Kimmel beat by Sen. Ted Cruz in charity game",
+"description": "Texas Sen. Ted Cruz has triumphed over late night TV host Jimmy Kimmel in their much-hyped charity basketball game that Kimmel dubbed the Blobfish Basketball Classic.",
+"url": "https://www.washingtonpost.com/entertainment/tv/born-of-blobfish-joke-cruz-edges-kimmel-in-basketball-game/2018/06/17/5ef76992-7260-11e8-bda1-18e53a448a14_story.html",
+"urlToImage": "https://www.washingtonpost.com/resizer/2CjPNwqvXHPS_2RpuRTKY-p3eVo=/1484x0/www.washingtonpost.com/pb/resources/img/twp-social-share.png",
+"publishedAt": "2018-06-17T19:00:21Z"
+},
+-{
+-"source": {
+"id": "the-new-york-times",
+"name": "The New York Times"
+},
+"author": "http://www.nytimes.com/by/brooks-barnes",
+"title": "'Incredibles 2' Sells a Record-Setting $180 Million in Tickets",
+"description": "The Pixar movie had the best-ever opening for an animated release, benefiting from rapturous word of mouth. Ticket buyers gave it a rare A-plus in exit polls.",
+"url": "https://www.nytimes.com/2018/06/17/movies/incredibles-2-box-office-record-animation.html",
+"urlToImage": "https://static01.nyt.com/images/2018/06/18/arts/18boxoffice/18boxoffice-facebookJumbo.jpg",
+"publishedAt": "2018-06-17T18:34:18Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Espn.com"
+},
+"author": null,
+"title": "Pats' Brady sees retirement getting closer",
+"description": "Tom Brady says he can see retirement on the horizon, but he's still motivated to play in the NFL.",
+"url": "http://www.espn.com/nfl/story/_/id/23821997/patriots-qb-tom-brady-sees-retirement-coming",
+"urlToImage": "http://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2018%2F0515%2Fr370799_1296x729_16%2D9.jpg",
+"publishedAt": "2018-06-17T18:17:56Z"
+},
+-{
+-"source": {
+"id": "the-washington-post",
+"name": "The Washington Post"
+},
+"author": "https://www.facebook.com/kristineaguerra",
+"title": "Suspect killed, 22 injured in shooting at New Jersey arts festival, authorities say",
+"description": "Authorities said at least two gunmen opened fire at the 24-hour festival in Trenton, N.J.",
+"url": "https://www.washingtonpost.com/news/post-nation/wp/2018/06/17/suspect-killed-at-least-20-injured-in-shooting-at-new-jersey-arts-festival/",
+"urlToImage": "https://www.washingtonpost.com/resizer/xZDa39Q0uq2s1JFqUYeeKGf2eOY=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DT5FTXOYGY3M7HWCM6U4RRFPKA.jpg",
+"publishedAt": "2018-06-17T16:35:17Z"
+},
+-{
+-"source": {
+"id": "abc-news",
+"name": "ABC News"
+},
+"author": "ABC News",
+"title": "Hot weather in store for eastern half of country on Father's Day",
+"description": "Much of the central U.S. will be dealing with widespread heat on Sunday as heat index values are close to, or exceeding, 100 degrees in parts of the Midwest, including Chicago.\nHeat index values close to, or in excess of, 100 degrees are possible from Texas t…",
+"url": "https://abcnews.go.com/US/hot-weather-store-eastern-half-country-fathers-day/story?id=55955017",
+"urlToImage": "https://s.abcnews.com/images/US/duluth-flooding-wdio-mo-20180617_hpMain_16x9_992.jpg",
+"publishedAt": "2018-06-17T10:07:38Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Nypost.com"
+},
+"author": null,
+"title": "These Harvard kids got the lesson of their life in the Heartland",
+"description": null,
+"url": "https://nypost.com/2018/06/16/these-harvard-kids-got-the-lesson-of-their-life-in-the-heartland/",
+"urlToImage": null,
+"publishedAt": "2018-06-16T13:38:20Z"
+},
+-{
+-"source": {
+"id": null,
+"name": "Twincities.com"
+},
+"author": "Tad Vezner",
+"title": "The little raccoon that could reaches St. Paul high-rise roof — and rescue",
+"description": "After being stranded overnight on a ledge of a downtown St. Paul office building, the raccoon made it to the roof and has been trapped.",
+"url": "https://www.twincities.com/2018/06/12/raccoon-climbs-st-paul-mn-office-building-ubs/",
+"urlToImage": "https://www.twincities.com/wp-content/uploads/2018/06/IMG_19071.jpg?w=1024&h=576",
+"publishedAt": "2018-06-13T13:30:39Z"
+}
+]
+}
